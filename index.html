@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<meta property="og:title" content="프로필 링크">
+    <meta property="og:description" content="간단한 링크 트리 연습">
+    <meta property="og:image content" src="pocket.png">
+    <title>오라클K 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+*       {
+            font-family: "Pretendard",serif;
+        }
+        body{
+            background-color: rgb(15, 77, 26);
+        }
+        .profile {
+            width: 100;
+            height: 100;
+            border-radius: 100%;
+            border: 2px solid white;
+            background-image: url('pocket.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main{
+            margin-top: 20px;
+            color: white;
+            font-size: 20px;
+        }
+        .sub {
+            color: white;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:#44398a;
+
+            text-decoration: none;
+            box-shadow: 4px 3px 5px 0px black;
+        }
+    </style>
+</head>
+
+<body> 
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">Pokemon go</h1>
+        <p class="sub">Instinct OracleK</p>
+        <a href="#">경성대학교 Main</a>
+        <a href="#">경성대학교 KMOVE</a>
+        <a href="#">경성대학교 IPP</a>
+        <a href="#">경성대학교 Link3.0</a>
+    </div>
+    
+</body>
+
+</html>
